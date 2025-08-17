@@ -1,0 +1,7 @@
+﻿services:
+  bookingengine.service:
+    image: bookingengine.service
+    build:
+      context: .
+      dockerfile: BookingEngine.Service/Dockerfile
+
