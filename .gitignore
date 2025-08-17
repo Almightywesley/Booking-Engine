@@ -45,9 +45,9 @@ tools/
 /*.sln.iml
 
 # Optional: keep shared configs
-.idea/*
-!.idea/codeStyles
-!.idea/runConfigurations
+# .idea/*
+# !.idea/codeStyles
+# !.idea/runConfigurations
 
 riderModule.iml
 /_ReSharper.Caches/
