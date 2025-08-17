@@ -1,5 +1,89 @@
+############################
+# .NET / C#
+############################
 bin/
 obj/
-/packages/
+[Bb]uild/
+[Ll]og/
+[Tt]emp/
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.cache
+*.vs/
+*.dbmdl
+*.bak
+*.swp
+*.tmp
+*.log
+*.lock
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Dotnet tools
+.dotnet/
+tools/
+
+############################
+# Rider / IntelliJ
+############################
+.idea/
+/*.sln.iml
+
+# Optional: keep shared configs
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
+riderModule.iml
+/_ReSharper.Caches/
+############################
+# macOS
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+############################
+# Others
+############################
+*.env
+
 riderModule.iml
 /_ReSharper.Caches/
